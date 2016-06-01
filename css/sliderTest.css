@@ -1,3 +1,20 @@
+/********* the Slider Style Need to be include in your Project ***********/
+/* Start slider style*/
+#slider-container {
+    position: relative;
+}
+
+#slider-container .slider-content {
+    position: relative;
+}
+
+#slider-container .slider-content .item {
+    position: relative;
+    display: none;
+    opacity: 0;
+}
+/* End slider style*/
+
 .margin-right-10 {
     margin-right: 10px;
 }
@@ -16,27 +33,6 @@
     overflow: hidden;
     
 }
-
-
-/* Start slider style*/
-#slider-container {
-    position: relative;
-}
-
-#slider-container .slider-content {
-    position: relative;
-}
-
-#slider-container .slider-content .item {
-    position: relative;
-    display: none;
-    opacity: 0;
-}
-
-/* End slider style*/
-
-
-
 
 .product-box .product-header {
     background: #f8f8f8;
